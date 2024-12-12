@@ -1,3 +1,5 @@
+#include "MatrixWrite.h"
+
 
 // Function to write two random matrices to a file, consider using MPI to speed this up too.
 void writeRandomMatricesToFile(const char *filename, int m, int k, int n, int range) {
